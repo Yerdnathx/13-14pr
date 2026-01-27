@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  color: #222;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 26px;
+}
+
+.hero p {
+  margin: 0;
+  color: #555;
+}
+
+.grid {
+  width: 100%;
+  overflow: hidden; 
+}
+.card {
+  width: 48%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.card-left {
+  float: left;
+}
+
+.card-right {
+  float: right;
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.info {
+  margin-bottom: 15px;
+}
+
+.info-item {
+  width: 100%;
+  overflow: hidden;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.badge {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 50%;
+  background: #e6edff;
+  color: #1d4ed8;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.info-text {
+  overflow: hidden;
+}
+
+.info-text b {
+  display: block;
+  font-size: 14px;
+}
+
+.info-text span {
+  font-size: 14px;
+  color: #555;
+}
+
+.map {
+  margin-top: 15px;
+}
+
+.map-placeholder {
+  height: 160px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  background: #f7f7f7;
+  text-align: center;
+  padding-top: 55px;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 14px;
+}
+form {
+  width: 100%;
+}
+
+.form-row {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.form-col {
+  width: 48%;
+  float: left;
+}
+
+.form-col.right {
+  float: right;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #555;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #f0c419;
+  color: #222;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6b800;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+}
+
