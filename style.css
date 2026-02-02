@@ -5,10 +5,56 @@ body {
   color: #222;
 }
 
+/* Навигация (общая для страниц) */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+}
+.logo {
+  font-weight: 700;
+  color: #222;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav-links a {
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: #555;
+}
+.nav-links a:hover {
+  background: #f2f4f8;
+  color: #222;
+}
+.nav-links a.active {
+  background: #1d4ed8;
+  color: #fff;
+}
+
 .container {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+}
+
+/* Убираем лишнюю высоту у шапки/футера */
+.site-nav .container,
+.site-footer .container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hero {
@@ -27,7 +73,7 @@ body {
 
 .grid {
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 .card {
   width: 48%;
@@ -163,6 +209,13 @@ button {
 
 button:hover {
   background: #e6b800;
+}
+
+.site-footer {
+  margin-top: 22px;
+  padding: 14px 0;
+  color: #666;
+  font-size: 13px;
 }
 
 .note {

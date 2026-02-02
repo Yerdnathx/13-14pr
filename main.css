@@ -438,4 +438,29 @@ a{ color: inherit; text-decoration: none; }
   gap: 12px;
   align-items: center;
 }
-.fo
+
+.footer-links{
+  display:flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.footer-links a{
+  color: #bfffe0;
+  font-size: 13px;
+}
+.footer-links a:hover{ text-decoration: underline; }
+
+/* Адаптив */
+@media (max-width: 900px){
+  .hero-inner{ grid-template-columns: 1fr; }
+  .cards{ grid-template-columns: 1fr; }
+  .news-grid{ grid-template-columns: 1fr; }
+  .quick-grid{ grid-template-columns: repeat(2, 1fr); }
+  .split{ grid-template-columns: 1fr; }
+  .cta{ grid-template-columns: 1fr; }
+}
+
+@media (max-width: 520px){
+  .hero h1{ font-size: 32px; }
+  .quick-grid{ grid-template-columns: 1fr; }
+}
