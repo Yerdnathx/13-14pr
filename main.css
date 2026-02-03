@@ -16,7 +16,7 @@
 body{
   margin:0;
   font-family: Arial, sans-serif;
-  background: radial-gradient(1200px 500px at 20% 0%, #1a2a55 0%, var(--bg) 55%) , var(--bg);
+  background: radial-gradient(1200px 501px at 20% 0%, #1a2a55 0%, var(--bg) 55%) , var(--bg);
   color: var(--text);
 }
 
